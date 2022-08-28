@@ -178,7 +178,24 @@ p{
 
 /*Registro-----------------------------------------------*/
 .main{
-    color: #ffffff
+    color: #ffffff    
+}
+
+.tituloAlumnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tituloRecursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+article{
+    padding: 20px;
 }
 
 .registro{
