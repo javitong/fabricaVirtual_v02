@@ -1,0 +1,26 @@
+main{
+    section{
+        background-image: url(/recursos/Sitio_FV.520.png);
+        h3{
+            font-size: 8rem;
+            margin-left: 5rem;
+            padding: 20rem;
+            color: #16DEDB;
+            text-shadow: #EB1DE7 5px 5px;
+            &:hover{
+                animation-name: titulo;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+                animation-duration: 2s;
+                }
+            }
+        }
+    }
+
+    @keyframes titulo {
+        0% {color: #16DEDB;}
+        25% {color: #ffffff;}
+        50% {color: #16DEDB;}
+        75% {color: #ffffff;}
+        100% {color: #16DEDB;}
+        }
