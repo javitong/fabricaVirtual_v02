@@ -28,8 +28,13 @@ header div a img {
   height: auto;
 }
 
+main {
+  background: linear-gradient(-45deg, #000000, #212121);
+}
 main section {
   background-image: url(/recursos/Sitio_FV.520.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 main section h3 {
   font-size: 8rem;
