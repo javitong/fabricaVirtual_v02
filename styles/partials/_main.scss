@@ -3,10 +3,10 @@ main{
 }
 
 main{
+    background-size: cover;
     section{
             h3{
             font-size: 8rem;
-            margin-left: 5rem;
             padding: 20rem;
             color: $secondaryColor;
             text-shadow: $primaryColor 5px 5px;
@@ -24,7 +24,7 @@ main{
         background-image: url(/recursos/Sitio_FV.520.png);
         background-repeat: no-repeat;
         background-size: auto;
-        margin: 50px;
+        padding: 50px;
 }
 
 .btn{

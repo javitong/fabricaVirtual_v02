@@ -16,8 +16,7 @@ header{
     color: #515151;
     transition: all 1s;
     &:hover{
-        color: #16DEDB
-    }
+        color: $secondaryColor
 }
 
 .logo{

@@ -55,6 +55,7 @@ main section h3:hover {
   background-image: url(/recursos/Sitio_FV.520.png);
   background-repeat: no-repeat;
   background-size: auto;
+  padding: 50px;
 }
 
 .btn {
