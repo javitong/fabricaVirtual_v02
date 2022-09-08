@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
-@import "./partials/header", "./partials/main", "./partials/footer", "./partials/variables";
+@import 
+"./partials/variables",
+"./partials/header", 
+"./partials/main", 
+"./partials/footer";
 
 .contenedor{
     font-family: Ubuntu, sans-serif;
-    background-color: linear-gradient(-45deg, #000000, #212121);
+    background-color:linear-gradient(-45deg, #000000, #212121);
 }

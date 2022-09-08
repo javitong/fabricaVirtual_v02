@@ -2,7 +2,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(1, 1, 1);
+    background-color: $headerColor;
 
     div{
         img{
@@ -15,7 +15,7 @@ footer{
         a{
             padding: 5px;
             margin: 20px;
-            color: #EB1DE7;
+            color: $primaryColor;
         }
     }
 }

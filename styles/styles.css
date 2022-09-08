@@ -33,9 +33,11 @@ main {
   background: linear-gradient(-45deg, #000000, #212121);
 }
 
+main {
+  background-size: cover;
+}
 main section h3 {
   font-size: 8rem;
-  margin-left: 5rem;
   padding: 20rem;
   color: #16DEDB;
   text-shadow: #EB1DE7 5px 5px;
@@ -151,7 +153,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(1, 1, 1);
+  background-color: #000000;
 }
 footer div img {
   width: 30px;
