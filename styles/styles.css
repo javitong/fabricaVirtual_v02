@@ -191,6 +191,9 @@ footer div a {
   border-bottom: 3px solid #16DEDB;
   border-radius: 20px;
 }
+footer div a:hover {
+  color: #16DEDB;
+}
 
 .btn {
   border: none;

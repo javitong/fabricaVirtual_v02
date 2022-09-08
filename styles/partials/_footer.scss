@@ -16,6 +16,9 @@ footer{
         a{
         @extend %flexRow;
         @include botonRedes($secondaryColor);
+        &:hover{
+            color: $secondaryColor;
+        }
         }
     }
 }
