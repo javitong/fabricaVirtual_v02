@@ -1,10 +1,10 @@
 main{
     background:  linear-gradient(-45deg, #000000, #212121);
+}
+
+main{
     section{
-        background-image: url(/recursos/Sitio_FV.520.png);
-        background-repeat: no-repeat;
-        background-size: auto;
-        h3{
+            h3{
             font-size: 8rem;
             margin-left: 5rem;
             padding: 20rem;
@@ -19,6 +19,12 @@ main{
             }
         }
     }
+
+.banner{
+        background-image: url(/recursos/Sitio_FV.520.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+}
 
     @keyframes titulo {
         0% {color: #16DEDB;}

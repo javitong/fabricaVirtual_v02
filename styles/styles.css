@@ -3,6 +3,7 @@
 header {
   background-color: #000000;
   display: flex;
+  height: 90px;
 }
 header div a img {
   width: 100%;
@@ -18,24 +19,20 @@ header div a img {
 }
 
 .logo {
-  width: 50px;
+  width: 40px;
   height: auto;
   margin: 20px;
   transition: width 1s, height 1s;
 }
 .logo:hover {
-  width: 70px;
+  width: 50px;
   height: auto;
 }
 
 main {
   background: linear-gradient(-45deg, #000000, #212121);
 }
-main section {
-  background-image: url(/recursos/Sitio_FV.520.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
+
 main section h3 {
   font-size: 8rem;
   margin-left: 5rem;
@@ -52,6 +49,12 @@ main section h3:hover {
           animation-timing-function: ease-in-out;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+}
+
+.banner {
+  background-image: url(/recursos/Sitio_FV.520.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 @-webkit-keyframes titulo {
@@ -109,4 +112,55 @@ footer div a {
 .contenedor {
   font-family: Ubuntu, sans-serif;
   background-color: linear-gradient(-45deg, #000000, #212121);
+}
+
+@media (max-width: 1920px) {
+  .titulo {
+    font-size: 8rem;
+    margin-left: 4rem;
+    padding: 10rem;
+  }
+  .banner {
+    background-size: 1300px;
+  }
+}
+@media (max-width: 1366px) {
+  .titulo {
+    font-size: 7rem;
+    margin-left: 2rem;
+    padding: 6rem;
+  }
+  .banner {
+    background-size: 1200px;
+  }
+}
+@media (max-width: 1024px) {
+  .titulo {
+    font-size: 5rem;
+    margin-left: 2rem;
+    padding: 6rem;
+  }
+  .banner {
+    background-size: 900px;
+  }
+}
+@media (max-width: 720px) {
+  .titulo {
+    font-size: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+  }
+  .banner {
+    background-size: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .titulo {
+    font-size: 3rem;
+    margin-left: 1rem;
+    padding: 1.5rem;
+  }
+  .banner {
+    background-size: 400px;
+  }
 }/*# sourceMappingURL=styles.css.map */
