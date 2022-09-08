@@ -1,5 +1,5 @@
 main{
-    background:  linear-gradient(-45deg, #000000, #212121);
+    background:  $backgroundColor;
 }
 
 main{
@@ -50,14 +50,14 @@ main{
     }
 }
 
-    @media (max-width:1366px){
-        .titulo{
-            font-size: 7rem;
-            margin-left: 2rem;
-            padding: 6rem;
+@media (max-width:1366px){
+    .titulo{
+        font-size: 7rem;
+        margin-left: 2rem;
+        padding: 6rem;
         }
-        .banner{
-            background-size: 1200px;
+    .banner{
+        background-size: 1200px;
     }
 }
 
@@ -72,24 +72,24 @@ main{
     }
     }
 
-    @media (max-width:720px){
-        .titulo{
-            font-size: 4rem;
-            margin-left: 3rem;
-            padding: 3rem;
+@media (max-width:720px){
+    .titulo{
+        font-size: 4rem;
+        margin-left: 3rem;
+        padding: 2rem;
         }
-        .banner{
-            background-size: 600px;
+    .banner{
+        background-size: 600px;
         }
         }
 
-    @media (max-width:500px){
-        .titulo{
-            font-size: 3rem;
-            margin-left: 1rem;
-            padding: 1.5rem;
+@media (max-width:500px){
+    .titulo{
+        font-size: 3rem;
+        margin-left: 1rem;
+        padding: 1.5rem;
         }
-        .banner{
-            background-size: 400px;
+    .banner{
+        background-size: 400px;
         }
         }

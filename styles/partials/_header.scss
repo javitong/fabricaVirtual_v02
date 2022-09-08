@@ -1,5 +1,5 @@
 header{
-    background-color: #000000;
+    background-color: $headerColor;
     display: flex;
     height: 90px;
     div{
@@ -13,7 +13,7 @@ header{
 }
 
 .nav-link{
-    color: #515151;
+    color: $liColor;
     transition: all 1s;
     &:hover{
         color: $secondaryColor
