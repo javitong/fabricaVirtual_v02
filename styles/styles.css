@@ -158,6 +158,11 @@ footer a{
     margin: 20px;
     padding: 10px;
 }
+
+.imagenRhinoCal{
+    width: 40px;
+    height: auto;
+}
 .seccion1{
     display: flex;
     flex-wrap: wrap;
