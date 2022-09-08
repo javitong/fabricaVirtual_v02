@@ -57,6 +57,10 @@ main section h3:hover {
   background-size: auto;
 }
 
+.btn {
+  color: #EB1DE7;
+}
+
 @-webkit-keyframes titulo {
   0% {
     color: #16DEDB;
@@ -92,28 +96,6 @@ main section h3:hover {
     color: #16DEDB;
   }
 }
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(1, 1, 1);
-}
-footer div img {
-  width: 30px;
-  height: auto;
-  justify-content: space-evenly;
-}
-footer div a {
-  padding: 5px;
-  margin: 20px;
-  color: #EB1DE7;
-}
-
-.contenedor {
-  font-family: Ubuntu, sans-serif;
-  background-color: linear-gradient(-45deg, #000000, #212121);
-}
-
 @media (max-width: 1920px) {
   .titulo {
     font-size: 8rem;
@@ -163,4 +145,25 @@ footer div a {
   .banner {
     background-size: 400px;
   }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 1, 1);
+}
+footer div img {
+  width: 30px;
+  height: auto;
+  justify-content: space-evenly;
+}
+footer div a {
+  padding: 5px;
+  margin: 20px;
+  color: #EB1DE7;
+}
+
+.contenedor {
+  font-family: Ubuntu, sans-serif;
+  background-color: linear-gradient(-45deg, #000000, #212121);
 }/*# sourceMappingURL=styles.css.map */

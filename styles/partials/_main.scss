@@ -8,8 +8,8 @@ main{
             font-size: 8rem;
             margin-left: 5rem;
             padding: 20rem;
-            color: #16DEDB;
-            text-shadow: #EB1DE7 5px 5px;
+            color: $secondaryColor;
+            text-shadow: $primaryColor 5px 5px;
             &:hover{
                 animation-name: titulo;
                 animation-iteration-count: infinite;
@@ -24,12 +24,72 @@ main{
         background-image: url(/recursos/Sitio_FV.520.png);
         background-repeat: no-repeat;
         background-size: auto;
+        margin: 50px;
+}
+
+.btn{
+    color: $primaryColor;
 }
 
     @keyframes titulo {
-        0% {color: #16DEDB;}
-        25% {color: #ffffff;}
-        50% {color: #16DEDB;}
-        75% {color: #ffffff;}
-        100% {color: #16DEDB;}
+        0% {color: $secondaryColor;}
+        25% {color: $tertiaryColor;}
+        50% {color: $secondaryColor;}
+        75% {color: $tertiaryColor;}
+        100% {color: $secondaryColor;}
+        }
+
+@media (max-width:1920px){
+    .titulo{
+        font-size: 8rem;
+        margin-left: 4rem;
+        padding: 10rem;
+    }
+    .banner{
+        background-size: 1300px;
+    }
+}
+
+    @media (max-width:1366px){
+        .titulo{
+            font-size: 7rem;
+            margin-left: 2rem;
+            padding: 6rem;
+        }
+        .banner{
+            background-size: 1200px;
+    }
+}
+
+@media (max-width:1024px){
+    .titulo{
+        font-size: 5rem;
+        margin-left: 2rem;
+        padding: 6rem;
+    }
+    .banner{
+        background-size: 900px;
+    }
+    }
+
+    @media (max-width:720px){
+        .titulo{
+            font-size: 4rem;
+            margin-left: 3rem;
+            padding: 3rem;
+        }
+        .banner{
+            background-size: 600px;
+        }
+        }
+
+    @media (max-width:500px){
+        .titulo{
+            font-size: 3rem;
+            margin-left: 1rem;
+            padding: 1.5rem;
+        }
+        .banner{
+            background-size: 400px;
+        }
         }
