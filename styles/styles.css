@@ -54,8 +54,13 @@ img{
 
 
 /* Cuerpo---------------------------------------------------*/
+
 .banner{
     background-image: url(../recursos/Sitio_FV.520.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+
 }
 
 .titulo{
@@ -111,6 +116,37 @@ footer a{
 .redes a{
     color: #EB1DE7;
 }
+/*Cursos-----------------------------------------------*/
+.tituloSec{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.btn{
+    background-color: #EB1DE7;
+}
+
+.btn:hover{
+    background-color: #16DEDB;
+    color: #000000;
+}
+
+.card{
+    background-color:#000000;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+/*Recursos-----------------------------------------------*/
 
 /*Calendario-----------------------------------------------*/
 
@@ -199,5 +235,9 @@ article{
 }
 
 .registro{
-    background-color: red;
+    background-color: #EB1DE7;
+}
+
+.form-check-input:active{
+    background-color: #16DEDB;
 }
