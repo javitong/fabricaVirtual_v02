@@ -178,6 +178,7 @@ footer a{
     height: 250px;
     border:solid #16DEDB;
     border-radius: 15px;
+    padding: 10px;
 }
 
 h5{
@@ -185,7 +186,7 @@ h5{
     font-family: 'Ubuntu', sans-serif;
     color: #EB1DE7;
     text-align: end;
-    padding: 10px;   
+    padding: 20px;   
 }
 .cardImagen{
     width: 50%;
