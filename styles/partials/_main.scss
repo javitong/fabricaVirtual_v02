@@ -5,7 +5,7 @@ main{
 main{
     background-size: cover;
     section{
-            h3{
+            h1{
             font-size: 8rem;
             padding: 20rem;
             color: $secondaryColor;
@@ -28,7 +28,33 @@ main{
 }
 
 .btn{
-    color: $primaryColor;
+    @extend %botonBase;
+    color: $tertiaryColor;
+    background-color: $primaryColor;
+    &:active{
+        background-color: $secondaryColor;
+    }
+}
+
+h3{
+    @extend %flexRow;
+    padding: 50px;
+    font-size: 40px;
+    color: $tertiaryColor;
+}
+
+.form-label{
+    color: $tertiaryColor;
+}
+
+.form-check-label{
+    color: $tertiaryColor;
+}
+
+.form-check-input{
+    &:checked{
+        background-color: $secondaryColor ;
+    }
 }
 
     @keyframes titulo {

@@ -36,13 +36,13 @@ main {
 main {
   background-size: cover;
 }
-main section h3 {
+main section h1 {
   font-size: 8rem;
   padding: 20rem;
   color: #16DEDB;
   text-shadow: #EB1DE7 5px 5px;
 }
-main section h3:hover {
+main section h1:hover {
   -webkit-animation-name: titulo;
           animation-name: titulo;
   -webkit-animation-iteration-count: infinite;
@@ -61,7 +61,29 @@ main section h3:hover {
 }
 
 .btn {
-  color: #EB1DE7;
+  color: #ffffff;
+  background-color: #EB1DE7;
+}
+.btn:active {
+  background-color: #16DEDB;
+}
+
+h3 {
+  padding: 50px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.form-check-label {
+  color: #ffffff;
+}
+
+.form-check-input:checked {
+  background-color: #16DEDB;
 }
 
 @-webkit-keyframes titulo {
@@ -164,6 +186,20 @@ footer div a {
   padding: 5px;
   margin: 20px;
   color: #EB1DE7;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor {

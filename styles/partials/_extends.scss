@@ -1,0 +1,13 @@
+%botonBase{
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+}
+
+%flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
