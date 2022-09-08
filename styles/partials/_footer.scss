@@ -6,16 +6,16 @@ footer{
 
     div{
         img{
-            width: 30px;
+            width: 50px;
             height: auto;
+            margin: 20px;
             justify-content: space-evenly;
         }
     }
     div{
         a{
-            padding: 5px;
-            margin: 20px;
-            color: $primaryColor;
+        @extend %flexRow;
+        @include botonRedes($secondaryColor);
         }
     }
 }

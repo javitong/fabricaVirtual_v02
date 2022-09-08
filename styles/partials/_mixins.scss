@@ -1,0 +1,9 @@
+@mixin botonRedes ($borderColor){
+    font-size: 12px;
+    background-color: $primaryColor;
+    color: $tertiaryColor;
+    margin: 2px;
+    padding: 10px;
+    border-bottom: 03px solid $borderColor;
+    border-radius: 20px;
+}

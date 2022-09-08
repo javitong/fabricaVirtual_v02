@@ -1,6 +1,6 @@
 header{
+    @extend %flexRow;
     background-color: $headerColor;
-    display: flex;
     height: 90px;
     div{
         a{
